@@ -13,15 +13,14 @@
                 <div class="pr-5"><strong>32,4K</strong>Abonnées </div>
                 <div class="pr-5"><strong>233</strong>Abonnements </div>
             </div>
-            <div class="pt-4 font-weight-bold"> freeCodeCamp.org</div>
+            <div class="pt-4 font-weight-bold"> {{$user->profile->title }}</div>
             <div>
                 <p>
-                    We're a global community of millions of people learning to code together.
-                     We're an open source, donor-supported, 501(c)(3) nonprofit.
+                    {{$user->profile->description }}
                 </p>
             </div>
             <div>
-                <a href="https://www.freecodecamp.org">www.freecodecamp.org</a>
+                <a href="#">{{$user->profile->url ?? 'N/A' }}</a>
             </div>
 
         </div>
