@@ -7,7 +7,10 @@
             <img src="/svg/profile-logo.png" style="max-height:100px;" class="rounded-circle" alt="">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>{{$user->username }}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{$user->username }}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong>Publications</div>
                 <div class="pr-5"><strong>32,4K</strong>Abonnées </div>
